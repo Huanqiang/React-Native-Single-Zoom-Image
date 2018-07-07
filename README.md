@@ -4,7 +4,7 @@
 
 ## Preview
 
-
+![预览图](./Preview.gif)
 
 ## 使用 Demo
 
@@ -30,7 +30,7 @@ export default function ZoomImageExample() {
 | width         | number   | 图片初始的宽                                                 | No       |         |
 | height        | number   | 图片初始的高                                                 | No       |         |
 | style         | object   | 样式                                                         | No       |         |
-| canRotate     | bool     | 能否旋转                                                     |          |         |
-| canZoom       | bool     | 能否缩放                                                     |          |         |
-| onHandleTouch | function | 外部处理当前图片是否正处理手势操作状态<br />（是：true；否：false） |          |         |
+| canRotate     | bool     | 能否旋转                                                     | No       |         |
+| canZoom       | bool     | 能否缩放                                                     | No       |         |
+| onHandleTouch | function | 外部处理当前图片是否正处理手势操作状态<br />（是：true；否：false） | No       |         |
 
